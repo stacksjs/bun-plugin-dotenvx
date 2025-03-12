@@ -58,6 +58,7 @@
   "devDependencies": {
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
     "@types/bun": "^1.2.5",
+    "bumpp": "^10.0.3",
     "bun-plugin-dtsx": "^0.21.9",
     "changelogen": "^0.6.1",
     "eslint": "^9.22.0",
