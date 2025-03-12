@@ -1,20 +1,21 @@
 {
-  "name": "bun-plugin-env",
+  "name": "bun-plugin-dotenvx",
   "type": "module",
   "version": "0.4.1",
   "description": "A simple Bun plugin to load .env files as modules.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/bun-plugin-env#readme",
+  "homepage": "https://github.com/stacksjs/bun-plugin-dotenvx#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/bun-plugin-env.git"
+    "url": "git+https://github.com/stacksjs/bun-plugin-dotenvx.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/bun-plugin-env/issues"
+    "url": "https://github.com/stacksjs/bun-plugin-dotenvx/issues"
   },
   "keywords": [
     "dotenv",
+    "dotenvx",
     ".env",
     "env",
     "bun-plugin",
@@ -45,37 +46,29 @@
     "lint": "bunx eslint .",
     "lint:fix": "bunx eslint . --fix",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
-    "commit": "git cz",
     "changelog": "bunx changelogen --output CHANGELOG.md",
     "prepublishOnly": "bun run build",
     "release": "bun run changelog && bunx bumpp package.json --all",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.38.4"
+  },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@stacksjs/eslint-config": "^0.59.11",
+    "@stacksjs/eslint-config": "^4.8.2-beta.1",
     "@types/bun": "^1.2.5",
-    "@types/node": "^20.17.24",
-    "bun-plugin-dts-auto": "^0.20.6",
+    "bun-plugin-dtsx": "^0.21.9",
     "changelogen": "^0.6.1",
-    "commitizen": "^4.3.1",
-    "cz-git": "^1.11.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.22.0",
     "lint-staged": "^15.4.3",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.8.2"
   },
   "simple-git-hooks": {
-    "pre-commit": "bun lint-staged",
-    "commit-msg": "bunx --no -- commitlint --edit $1"
+    "pre-commit": "bun lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-git"
-    }
+    "*.{js,jsx,ts,tsx,vue}": "bunx --bun eslint --fix"
   }
 }

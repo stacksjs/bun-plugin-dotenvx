@@ -5,28 +5,28 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 
-# bun-plugin-env
+# bun-plugin-dotenvx
 
 A simple loader for your dotenv files.
 
 ## Features
 
 - Simple `.env` file loader
-- Powered by dotenv
+- Powered by `dotenvx`
 - Supports a wide variety of .env types
   - `.env`, `.env.local`, `.env.staging`, `.env.development`, `.env.dev`, `.env.beta` etc.
 
 ## Usage
 
 ```bash
-bun install -d bun-plugin-env
+bun install -d bun-plugin-dotenvx
 ```
 
 Next, ensure you are preloading the plugin in your `bunfig.toml`:
 
 ```toml
 preload = [
-  "./node_modules/bun-plugin-env/src/index.ts",
+  "./node_modules/bun-plugin-dotenvx/src/index.ts",
   # ...
 ]
 ```
@@ -52,7 +52,7 @@ bun test
 
 ## Changelog
 
-Please see our [releases](https://github.com/stacksjs/bun-plugin-env/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/stacksjs/bun-plugin-dotenvx/releases) page for more information on what has changed recently.
 
 ## Contributing
 
@@ -70,9 +70,11 @@ For casual chit-chat with others using this package:
 
 ## Postcardware
 
-You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving postcards makes us happy—and we will publish them on our website._
+## Postcardware
 
-Our address is: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA.
+“Software that is free, but hopes for a postcard.” We love receiving postcards from around the world showing where `audiox` is being used! We showcase them on our website too.
+
+Our address: Stacks.js, 12665 Village Ln #2306, Playa Vista, CA 90094 🌎
 
 ## Sponsors
 
@@ -85,7 +87,7 @@ We would like to extend our thanks to the following sponsors for funding Stacks 
 
 Many thanks to the following core technologies & people who have contributed to this package:
 
-- [Mot](https://github.com/motdotla) & [dotenv](https://github.com/motdotla/dotenv)
+- [Mot](https://github.com/motdotla) & [dotenv](https://github.com/motdotla/dotenv) & [dotenvx](https://github.com/dotenvx/dotenvx)
 - [Chris Breuer](https://github.com/chrisbbreuer)
 - [All Contributors](../../contributors)
 
@@ -96,11 +98,11 @@ The MIT License (MIT). Please see [LICENSE](https://github.com/stacksjs/stacks/t
 Made with 💙
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/bun-plugin-env?style=flat-square
-[npm-version-href]: https://npmjs.com/package/bun-plugin-env
+[npm-version-src]: https://img.shields.io/npm/v/bun-plugin-dotenvx?style=flat-square
+[npm-version-href]: https://npmjs.com/package/bun-plugin-dotenvx
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/bun-plugin-env?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/bun-plugin-env
+[npm-downloads-src]: https://img.shields.io/npm/dm/bun-plugin-dotenvx?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/bun-plugin-dotenvx
 
-[github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/bun-plugin-env/ci.yml?style=flat-square&branch=main
-[github-actions-href]: https://github.com/stacksjs/bun-plugin-env/actions?query=workflow%3Aci
+[github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/bun-plugin-dotenvx/ci.yml?style=flat-square&branch=main
+[github-actions-href]: https://github.com/stacksjs/bun-plugin-dotenvx/actions?query=workflow%3Aci

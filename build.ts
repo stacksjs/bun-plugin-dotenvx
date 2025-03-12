@@ -1,6 +1,5 @@
-import dts from 'bun-plugin-dts-auto'
+import { dts } from 'bun-plugin-dtsx'
 
-// eslint-disable-next-line no-console
 console.log('Building...')
 
 await Bun.build({
@@ -11,11 +10,8 @@ await Bun.build({
   target: 'bun',
 
   plugins: [
-    dts({
-      outDir: './dist',
-    }),
+    dts(),
   ],
 })
 
-// eslint-disable-next-line no-console
 console.log('Built!')

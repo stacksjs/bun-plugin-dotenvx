@@ -77,7 +77,7 @@
   ],
   "cSpell.diagnosticLevel": "Hint",
   "cSpell.customDictionaries": {
-    "bun-plugin-env": {
+    "bun-plugin-dotenvx": {
       "name": "custom-dictionary",
       "path": "./.vscode/dictionary.txt",
       "scope": "user",

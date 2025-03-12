@@ -11,6 +11,8 @@ composables
 degit
 deps
 destructurable
+dotenvx
+dtsx
 entrypoints
 heroicons
 lockb
