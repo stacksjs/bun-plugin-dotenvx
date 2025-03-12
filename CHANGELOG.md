@@ -1,4 +1,22 @@
 
+## v0.5.0...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.5.0...main)
+
+### 🏡 Chore
+
+- Add bumpp ([8c27625](https://github.com/stacksjs/bun-plugin-dotenvx/commit/8c27625))
+- Add bun flag ([1f063a1](https://github.com/stacksjs/bun-plugin-dotenvx/commit/1f063a1))
+- Minor CI updates ([7a322ba](https://github.com/stacksjs/bun-plugin-dotenvx/commit/7a322ba))
+- Remove dupe heading ([c901baf](https://github.com/stacksjs/bun-plugin-dotenvx/commit/c901baf))
+- Adjust eslint config ([10363d9](https://github.com/stacksjs/bun-plugin-dotenvx/commit/10363d9))
+- Add ignores ([b298a1e](https://github.com/stacksjs/bun-plugin-dotenvx/commit/b298a1e))
+- Adjust tsconfig ([62607c2](https://github.com/stacksjs/bun-plugin-dotenvx/commit/62607c2))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.4.1...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.4.1...main)
