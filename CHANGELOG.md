@@ -1,4 +1,23 @@
 
+## v0.6.0...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.0...main)
+
+### 📖 Documentation
+
+- Add initial documentation ([0565ece](https://github.com/stacksjs/bun-plugin-dotenvx/commit/0565ece))
+
+### 🏡 Chore
+
+- Adjust meta image ([e1d38f9](https://github.com/stacksjs/bun-plugin-dotenvx/commit/e1d38f9))
+- Adjust gitattributes ([1f0d0e4](https://github.com/stacksjs/bun-plugin-dotenvx/commit/1f0d0e4))
+- Wip ([7a72174](https://github.com/stacksjs/bun-plugin-dotenvx/commit/7a72174))
+- Re-add og image ([9e0977f](https://github.com/stacksjs/bun-plugin-dotenvx/commit/9e0977f))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.5.2...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.5.2...main)

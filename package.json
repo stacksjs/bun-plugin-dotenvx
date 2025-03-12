@@ -1,7 +1,7 @@
 {
   "name": "bun-plugin-dotenvx",
   "type": "module",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A Bun plugin for a seamless dotenvx experience.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
