@@ -18,7 +18,7 @@ const analyticsHead: HeadConfig[] = [
 
 const nav = [
   { text: 'News', link: 'https://stacksjs.org/news' },
-  { text: 'Changelog', link: 'https://github.com/stacksjs/vite-plugin-dotenvx/releases' },
+  { text: 'Changelog', link: 'https://github.com/stacksjs/bun-plugin-dotenvx/releases' },
   {
     text: 'Resources',
     items: [
@@ -30,7 +30,7 @@ const nav = [
       {
         items: [
           { text: 'Awesome Stacks', link: 'https://github.com/stacksjs/awesome-stacks' },
-          { text: 'Contributing', link: 'https://github.com/stacksjs/vite-plugin-dotenvx/blob/main/.github/CONTRIBUTING.md' },
+          { text: 'Contributing', link: 'https://github.com/stacksjs/bun-plugin-dotenvx/blob/main/.github/CONTRIBUTING.md' },
         ],
       },
     ],
@@ -63,8 +63,8 @@ const sidebar = [
 export default withPwa(
   defineConfig({
     lang: 'en-US',
-    title: 'vite-plugin-dotenvx',
-    description: 'A Vite plugin to seamlessly integrate with dotenvx.',
+    title: 'bun-plugin-dotenvx',
+    description: 'A Bun plugin to seamlessly integrate with dotenvx.',
     cleanUrls: true,
     lastUpdated: true,
     metaChunk: true,
@@ -74,21 +74,21 @@ export default withPwa(
       ['link', { rel: 'icon', type: 'image/png', href: './images/logo.png' }],
       // meta info
       ['meta', { name: 'theme-color', content: '#0A0ABC' }],
-      ['meta', { name: 'title', content: 'vite-plugin-dotenvx | A Vite plugin to seamlessly integrate with dotenvx.' }],
-      ['meta', { name: 'description', content: 'A Vite plugin to seamlessly integrate with dotenvx.' }],
+      ['meta', { name: 'title', content: 'bun-plugin-dotenvx | A Bun plugin to seamlessly integrate with dotenvx.' }],
+      ['meta', { name: 'description', content: 'A Bun plugin to seamlessly integrate with dotenvx.' }],
       ['meta', { name: 'author', content: 'Stacks.js, Inc.' }],
       ['meta', { name: 'tags', content: 'vite, vite-plugin, dotenvx, dotenv, environment, variables, development, lightweight' }],
       // open graph
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:locale', content: 'en' }],
-      ['meta', { property: 'og:title', content: 'vite-plugin-dotenvx | A Vite plugin to seamlessly integrate with dotenvx.' }],
-      ['meta', { property: 'og:site_name', content: 'vite-plugin-dotenvx' }],
+      ['meta', { property: 'og:title', content: 'bun-plugin-dotenvx | A Bun plugin to seamlessly integrate with dotenvx.' }],
+      ['meta', { property: 'og:site_name', content: 'bun-plugin-dotenvx' }],
       ['meta', { property: 'og:image', content: '/images/og-image.png' }],
       ['meta', {
         property: 'og:description',
-        content: 'A Vite plugin to seamlessly integrate with dotenvx.',
+        content: 'A Bun plugin to seamlessly integrate with dotenvx.',
       }],
-      ['meta', { property: 'og:url', content: 'https://vite-plugin-dotenvx.netlify.app/' }],
+      ['meta', { property: 'og:url', content: 'https://bun-plugin-dotenvx.netlify.app/' }],
       ...analyticsHead,
     ],
 
@@ -105,7 +105,7 @@ export default withPwa(
       sidebar,
 
       editLink: {
-        pattern: 'https://github.com/stacksjs/stacks/edit/main/docs/docs/:path',
+        pattern: 'https://github.com/stacksjs/bun-plugin-dotenvx/edit/main/docs/:path',
         text: 'Edit this page on GitHub',
       },
 
@@ -116,8 +116,8 @@ export default withPwa(
 
       socialLinks: [
         { icon: 'twitter', link: 'https://twitter.com/stacksjs' },
-        { icon: 'bluesky', link: 'https://bsky.app/profile/chrisbreuer.dev' },
-        { icon: 'github', link: 'https://github.com/stacksjs/vite-plugin-dotenvx' },
+        { icon: 'bluesky', link: 'https://bsky.app/profile/chris-breuer.me' },
+        { icon: 'github', link: 'https://github.com/stacksjs/bun-plugin-dotenvx' },
         { icon: 'discord', link: 'https://discord.gg/stacksjs' },
       ],
 

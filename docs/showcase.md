@@ -1,6 +1,6 @@
 # Showcase
 
-Here are all the cool projects that people have built using `vite-plugin-dotenvx`.
+Here are all the cool projects that people have built using `bun-plugin-dotenvx`.
 
 ## Community Projects
 
@@ -10,7 +10,7 @@ If you authored a project you’d like to showcase, please share it with us in a
 
 ## First-Party
 
-The whole Stacks ecosystem is built using `vite-plugin-dotenvx`. Here are some of the projects utilizing it:
+The whole Stacks ecosystem is built using `bun-plugin-dotenvx`. Here are some of the projects utilizing it:
 
 - [`stacks`](https://github.com/stacksjs/stacks) _(Progressive full-stack framework for Web Artisans. Develop modern apps, clouds & framework-agnostic libraries—faster.)_
 
