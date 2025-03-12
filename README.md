@@ -11,9 +11,10 @@ A simple loader for your dotenv files.
 
 ## Features
 
-- Simple `.env` file loader
+- Simple `.env*` file loader
+- Ensures your `.env` files are loaded in a decrypted state
 - Powered by `dotenvx`
-- Supports a wide variety of .env types
+- Supports a wide variety of `.env` file types
   - `.env`, `.env.local`, `.env.staging`, `.env.development`, `.env.dev`, `.env.beta` etc.
 
 ## Usage
