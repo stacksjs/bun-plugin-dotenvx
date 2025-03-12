@@ -5,6 +5,7 @@ console.log('Building...')
 await Bun.build({
   entrypoints: [
     './src/index.ts',
+    './src/plugin.ts',
   ],
   outdir: './dist',
   target: 'bun',

@@ -9,6 +9,8 @@ codecov
 commitlint
 commitlintrc
 composables
+davidanson
+dbaeumer
 degit
 deps
 destructurable

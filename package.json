@@ -30,6 +30,11 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
+    "./plugin": {
+      "bun": "./src/plugin.ts",
+      "types": "./dist/plugin.d.ts",
+      "import": "./dist/plugin.js"
+    },
     "./*": {
       "bun": "./src/*",
       "import": "./dist/*"
@@ -53,7 +58,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.38.4"
+    "@dotenvx/dotenvx": "^1.38.5"
   },
   "devDependencies": {
     "@stacksjs/eslint-config": "^4.8.2-beta.1",

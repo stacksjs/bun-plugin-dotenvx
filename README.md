@@ -7,17 +7,19 @@
 
 # bun-plugin-dotenvx
 
-A simple loader for your dotenv files.
+A powerful loader for your dotenv files, powered by [dotenvx](https://dotenvx.com).
 
 ## Features
 
-- Simple `.env*` file loader
-- Ensures your `.env` files are loaded in a decrypted state
-- Powered by `dotenvx`
+- **Multi-environment support** - Load different `.env` files for different environments
+- **Encrypted envs** - Securely store encrypted environment variables in your codebase
+- **Variable expansion** - Reference and expand variables already on your machine
+- **Command substitution** - Add the output of a command to your variables
+- **Configurable** - Customize the plugin with various options
 - Supports a wide variety of `.env` file types
-  - `.env`, `.env.local`, `.env.staging`, `.env.development`, `.env.dev`, `.env.beta` etc.
+  - `.env`, `.env.local`, `.env.staging`, `.env.production`, `.env.development`, `.env.dev`, `.env.beta` etc.
 
-## Usage
+## Installation
 
 ```bash
 bun install -d bun-plugin-dotenvx
@@ -32,6 +34,8 @@ preload = [
 ]
 ```
 
+## Basic Usage
+
 You may now use the decrypted `.env` values in your project:
 
 ```ts
@@ -44,6 +48,92 @@ const databaseUrl = env.DATABASE_URL
 console.log(`API Key: ${apiKey}`)
 console.log(`Database URL: ${databaseUrl}`)
 ```
+
+## Advanced Usage
+
+### Custom Configuration
+
+You can customize the plugin by creating your own instance with specific options:
+
+```ts
+import { plugin } from 'bun'
+// plugin.ts
+import { createDotenvxPlugin } from 'bun-plugin-dotenvx'
+
+// Create a custom plugin instance
+const dotenvxPlugin = createDotenvxPlugin({
+  path: ['.env.local', '.env'],
+  overload: true,
+  strict: true,
+  verbose: true,
+})
+
+// Register the plugin
+await plugin(dotenvxPlugin)
+```
+
+Then in your `bunfig.toml`:
+
+```toml
+preload = [
+  "./plugin.ts",
+  # ...
+]
+```
+
+### Multi-Environment Support
+
+Load different `.env` files for different environments:
+
+```ts
+import { plugin } from 'bun'
+// development.ts
+import { createDotenvxPlugin } from 'bun-plugin-dotenvx'
+
+// production.ts
+import { createDotenvxPlugin } from 'bun-plugin-dotenvx'
+
+await plugin(createDotenvxPlugin({
+  path: ['.env.development.local', '.env.development', '.env.local', '.env'],
+}))
+
+await plugin(createDotenvxPlugin({
+  path: ['.env.production.local', '.env.production', '.env'],
+}))
+```
+
+### Encrypted Envs
+
+To use encrypted environment variables:
+
+1. First, encrypt your `.env` file using dotenvx:
+
+```bash
+npx @dotenvx/dotenvx encrypt
+```
+
+2. Then, use the plugin as normal, but make sure to set the `DOTENV_PRIVATE_KEY` environment variable:
+
+```bash
+DOTENV_PRIVATE_KEY="your-private-key" bun run your-script.ts
+```
+
+### Configuration Options
+
+The plugin supports the following options:
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `path` | `string \| string[]` | `['.env']` | Path(s) to your env file(s) |
+| `overload` | `boolean` | `false` | Override existing env variables |
+| `strict` | `boolean` | `false` | Exit with code 1 if any errors are encountered |
+| `ignore` | `string[]` | `undefined` | Ignore specific errors |
+| `envKeysFile` | `string` | `'.env.keys'` | Path to your .env.keys file |
+| `convention` | `'nextjs'` | `undefined` | Load a .env convention |
+| `logLevel` | `string` | `'info'` | Set log level |
+| `quiet` | `boolean` | `false` | Suppress all output (except errors) |
+| `verbose` | `boolean` | `false` | Set log level to verbose |
+| `debug` | `boolean` | `false` | Set log level to debug |
 
 ## Testing
 
