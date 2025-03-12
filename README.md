@@ -91,7 +91,7 @@ import { plugin } from 'bun'
 import { createDotenvxPlugin } from 'bun-plugin-dotenvx'
 
 // production.ts
-import { createDotenvxPlugin } from 'bun-plugin-dotenvx'
+// import { createDotenvxPlugin } from 'bun-plugin-dotenvx'
 
 await plugin(createDotenvxPlugin({
   path: ['.env.development.local', '.env.development', '.env.local', '.env'],
