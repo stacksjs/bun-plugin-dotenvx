@@ -1,4 +1,16 @@
 
+## v0.5.1...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.5.1...main)
+
+### 🏡 Chore
+
+- Add bunfig ([ed9beb7](https://github.com/stacksjs/bun-plugin-dotenvx/commit/ed9beb7))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.5.0...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.5.0...main)
