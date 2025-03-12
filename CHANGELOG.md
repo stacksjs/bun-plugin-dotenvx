@@ -1,4 +1,16 @@
 
+## v0.4.1...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.4.1...main)
+
+### 🏡 Chore
+
+- Several minor updates ([b0d76bc](https://github.com/stacksjs/bun-plugin-dotenvx/commit/b0d76bc))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.4.0...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.4.0...main)
