@@ -70,9 +70,7 @@ For casual chit-chat with others using this package:
 
 ## Postcardware
 
-## Postcardware
-
-“Software that is free, but hopes for a postcard.” We love receiving postcards from around the world showing where `audiox` is being used! We showcase them on our website too.
+“Software that is free, but hopes for a postcard.” We love receiving postcards from around the world showing where `bun-plugin-dotenvx` is being used! We showcase them on our website too.
 
 Our address: Stacks.js, 12665 Village Ln #2306, Playa Vista, CA 90094 🌎
 
