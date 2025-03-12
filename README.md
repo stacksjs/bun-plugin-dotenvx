@@ -31,7 +31,7 @@ preload = [
 ]
 ```
 
-You may now use it in your project:
+You may now use the decrypted `.env` values in your project:
 
 ```ts
 import env from './.env'

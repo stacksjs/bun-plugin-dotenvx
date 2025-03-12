@@ -1,6 +1,7 @@
 antfu
 booleanish
 bumpp
+bunfig
 bunx
 changelogen
 changelogithub
