@@ -2,7 +2,7 @@
   "name": "bun-plugin-dotenvx",
   "type": "module",
   "version": "0.6.0",
-  "description": "A simple Bun plugin to load .env files as modules.",
+  "description": "A Bun plugin for a seamless dotenvx experience.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
   "homepage": "https://github.com/stacksjs/bun-plugin-dotenvx#readme",
@@ -55,12 +55,16 @@
     "prepublishOnly": "bun run build",
     "release": "bun run changelog && bunx bumpp package.json --all",
     "test": "bun test",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "dev:docs": "bun --bun vitepress dev docs",
+    "build:docs": "bun --bun vitepress build docs",
+    "preview:docs": "bun --bun vitepress preview docs"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.38.5"
   },
   "devDependencies": {
+    "@stacksjs/docs": "^0.69.3",
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
     "@types/bun": "^1.2.5",
     "bumpp": "^10.0.3",
@@ -69,7 +73,8 @@
     "eslint": "^9.22.0",
     "lint-staged": "^15.4.3",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vite-plugin-vue-devtools": "^7.7.2"
   },
   "simple-git-hooks": {
     "pre-commit": "bun lint-staged"

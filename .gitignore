@@ -5,6 +5,7 @@
 *.tgz
 coverage
 dist
+docs/.vitepress/cache
 lib-cov
 logs
 node_modules

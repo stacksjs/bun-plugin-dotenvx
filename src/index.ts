@@ -1,4 +1,3 @@
-import { plugin } from 'bun'
 import * as dotenvx from '@dotenvx/dotenvx'
 import { createDotenvxPlugin } from './plugin'
 
@@ -7,4 +6,8 @@ dotenvx.config()
 
 // Default plugin instance with default options
 // eslint-disable-next-line antfu/no-top-level-await
-await plugin(createDotenvxPlugin())
+await Bun.plugin(createDotenvxPlugin())
+
+export { createDotenvxPlugin }
+export type { DotenvxPluginOptions } from './plugin'
+export default createDotenvxPlugin
