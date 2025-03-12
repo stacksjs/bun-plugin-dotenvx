@@ -1,4 +1,18 @@
 
+## v0.5.2...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.5.2...main)
+
+### 🏡 Chore
+
+- Adjust readme ([13e9d99](https://github.com/stacksjs/bun-plugin-dotenvx/commit/13e9d99))
+- Restructure plugin ([a7e79fb](https://github.com/stacksjs/bun-plugin-dotenvx/commit/a7e79fb))
+- Lint ([b807b16](https://github.com/stacksjs/bun-plugin-dotenvx/commit/b807b16))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.5.1...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.5.1...main)

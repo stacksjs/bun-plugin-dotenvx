@@ -1,7 +1,7 @@
 {
   "name": "bun-plugin-dotenvx",
   "type": "module",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "A simple Bun plugin to load .env files as modules.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
