@@ -9,14 +9,19 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "types": [
-      "node"
+      "bun"
     ],
     "allowImportingTsExtensions": true,
     "strict": true,
     "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true,
     "noEmit": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "isolatedDeclarations": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
   }
