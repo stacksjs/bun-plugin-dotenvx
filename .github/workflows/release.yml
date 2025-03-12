@@ -1,4 +1,4 @@
-name: Release
+name: CI
 
 on:
   push:
@@ -15,34 +15,26 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set Node.js
-        uses: actions/setup-node@v4
-        with:
-          registry-url: 'https://registry.npmjs.org'
-
       - name: Install Bun
         uses: oven-sh/setup-bun@v2
 
-      - name: Use cached node_modules
+      - name: Use Cached node_modules
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: node-modules-${{ hashFiles('**/bun.lockb') }}
+          key: node-modules-${{ hashFiles('**/bun.lock') }}
           restore-keys: |
             node-modules-
 
       - name: Install Dependencies
         run: bun install
 
-      - name: Build Release
-        run: bun run build
-
-      - name: Publish to npm
-        run: npm publish --access public --no-git-checks
+      - name: Publish To npm
+        run: bun publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          BUN_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - name: Create GitHub Release
-        run: npx changelogithub
+        run: bunx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
