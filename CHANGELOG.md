@@ -1,4 +1,16 @@
 
+## v0.6.2...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.2...main)
+
+### 🏡 Chore
+
+- Externalize `@dotenvx/dotenvx` ([3e7157f](https://github.com/stacksjs/bun-plugin-dotenvx/commit/3e7157f))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.6.1...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.1...main)
