@@ -49,6 +49,19 @@ console.log(`API Key: ${apiKey}`)
 console.log(`Database URL: ${databaseUrl}`)
 ```
 
+### VS Code Extension
+
+For the best development experience, we recommend installing the [dotenvx VS Code extension](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenvx-vscode). This extension provides syntax highlighting, encryption/decryption features, and other helpful tools directly in your editor.
+
+```bash
+# Install from VS Code marketplace
+code --install-extension dotenv.dotenvx-vscode
+```
+
+Or search for "dotenvx" in the VS Code extensions marketplace.
+
+For more information on dotenvx, visit [dotenvx.com](https://dotenvx.com).
+
 ## Advanced Usage
 
 ### Custom Configuration
