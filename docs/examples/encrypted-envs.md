@@ -51,7 +51,7 @@ JWT_SECRET="encrypted:LKJlkjLKJlkjLKJlkjLKJlkjLKJlkjLKJlkjLKJlkjLKJlkjLKJlkjLKJl
 Add the plugin to your `bunfig.toml`:
 
 ```toml
-preload = [ "./node_modules/bun-plugin-dotenvx/src/index.ts" ]
+preload = [ "./node_modules/bun-plugin-dotenvx/dist/index.js" ]
 ```
 
 ## Use in Your Code

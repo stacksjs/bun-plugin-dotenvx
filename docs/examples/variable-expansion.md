@@ -13,7 +13,7 @@ bun install -d bun-plugin-dotenvx
 Then, add it to your `bunfig.toml`:
 
 ```toml
-preload = [ "./node_modules/bun-plugin-dotenvx/src/index.ts" ]
+preload = [ "./node_modules/bun-plugin-dotenvx/dist/index.js" ]
 ```
 
 ## Create a .env File with Variable References

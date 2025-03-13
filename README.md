@@ -29,7 +29,7 @@ Next, ensure you are preloading the plugin in your `bunfig.toml`:
 
 ```toml
 preload = [
-  "./node_modules/bun-plugin-dotenvx/src/index.ts",
+  "./node_modules/bun-plugin-dotenvx/dist/index.js",
   # ...
 ]
 ```
