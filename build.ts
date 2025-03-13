@@ -9,8 +9,9 @@ await Bun.build({
   ],
   outdir: './dist',
   target: 'bun',
-  minify: true,
-  splitting: true,
+  external: ['@dotenvx/dotenvx'],
+  // minify: true,
+  // splitting: true,
 
   plugins: [
     dts(),
