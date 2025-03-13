@@ -1,4 +1,17 @@
 
+## v0.6.1...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.1...main)
+
+### 🏡 Chore
+
+- Meta updates ([bd1ad9c](https://github.com/stacksjs/bun-plugin-dotenvx/commit/bd1ad9c))
+- Minify and split build ([cbdea11](https://github.com/stacksjs/bun-plugin-dotenvx/commit/cbdea11))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.6.0...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.0...main)
