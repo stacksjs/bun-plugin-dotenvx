@@ -64,7 +64,7 @@
     "@dotenvx/dotenvx": "^1.39.0"
   },
   "devDependencies": {
-    "@stacksjs/docs": "^0.69.3",
+    "@stacksjs/docs": "^0.70.1",
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
     "@types/bun": "^1.2.5",
     "bumpp": "^10.1.0",
@@ -72,7 +72,7 @@
     "changelogen": "^0.6.1",
     "eslint": "^9.22.0",
     "lint-staged": "^15.5.0",
-    "simple-git-hooks": "^2.11.1",
+    "simple-git-hooks": "^2.12.1",
     "typescript": "^5.8.2",
     "vite-plugin-vue-devtools": "^7.7.2"
   },
