@@ -61,7 +61,7 @@
     "preview:docs": "bun --bun vitepress preview docs"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.39.0"
+    "@dotenvx/dotenvx": "^1.46.0"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.1",
