@@ -1,4 +1,22 @@
 
+## v0.6.3...main
+
+[compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.3...main)
+
+### 🏡 Chore
+
+- Document dist/index.js usage ([0a80996](https://github.com/stacksjs/bun-plugin-dotenvx/commit/0a80996))
+- Mention vscode setup ([f25ddb3](https://github.com/stacksjs/bun-plugin-dotenvx/commit/f25ddb3))
+- Update fathom id ([6e164a5](https://github.com/stacksjs/bun-plugin-dotenvx/commit/6e164a5))
+- Add sponsors and stargazers ([a6a484d](https://github.com/stacksjs/bun-plugin-dotenvx/commit/a6a484d))
+- Bump dotenvx ([9c581c6](https://github.com/stacksjs/bun-plugin-dotenvx/commit/9c581c6))
+- Add launchpad support ([f991b34](https://github.com/stacksjs/bun-plugin-dotenvx/commit/f991b34))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+- Cab-mikee ([@cab-mikee](https://github.com/cab-mikee))
+
 ## v0.6.2...main
 
 [compare changes](https://github.com/stacksjs/bun-plugin-dotenvx/compare/v0.6.2...main)
