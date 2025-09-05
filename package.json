@@ -75,7 +75,7 @@
     "buddy-bot": "^0.8.9",
     "bun-git-hooks": "^0.2.19",
     "bun-plugin-dtsx": "^0.21.12",
-    "eslint": "^9.34.0",
+    "eslint": "^9.35.0",
     "typescript": "^5.9.2",
     "vite-plugin-vue-devtools": "^7.7.2"
   },
