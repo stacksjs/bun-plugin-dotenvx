@@ -63,7 +63,7 @@
     "preview:docs": "bun --bun vitepress preview docs"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.49.0"
+    "@dotenvx/dotenvx": "^1.49.1"
   },
   "devDependencies": {
     "@stacksjs/bumpx": "^0.1.84",
