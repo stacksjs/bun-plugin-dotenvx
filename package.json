@@ -65,7 +65,7 @@
   "dependencies": {
     "@dotenvx/dotenvx": "^1.51.0",
     "@stacksjs/dtsx": "^0.9.8",
-    "bun-plugin-dtsx": "^0.21.15"
+    "bun-plugin-dtsx": "^0.21.17"
   },
   "devDependencies": {
     "@stacksjs/bumpx": "^0.2.2",
