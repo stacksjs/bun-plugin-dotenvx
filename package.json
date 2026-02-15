@@ -69,7 +69,7 @@
     "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
     "better-dx": "^0.2.3",
-    "eslint": "^9.39.0",
+    "eslint": "^10.0.0",
     "vite-plugin-vue-devtools": "^8.0.3"
   },
   "git-hooks": {
