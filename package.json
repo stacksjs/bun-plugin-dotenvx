@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
-    "better-dx": "^0.2.3",
+    "better-dx": "^0.2.5",
     "vite-plugin-vue-devtools": "^8.0.3"
   },
   "git-hooks": {
