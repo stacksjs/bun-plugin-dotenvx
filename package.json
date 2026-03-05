@@ -51,8 +51,8 @@
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "prepublishOnly": "bun run build",
     "test": "bun test",
-    "lint": "bunx --bun pickier lint .",
-    "lint:fix": "bunx --bun pickier lint . --fix",
+    "lint": "bunx --bun pickier .",
+    "lint:fix": "bunx --bun pickier . --fix",
     "changelog": "bunx logsmith --verbose",
     "changelog:generate": "bunx logsmith --output CHANGELOG.md",
     "release": "bun --bun run changelog:generate && bunx --bun bumpx prompt --recursive",
@@ -61,8 +61,8 @@
     "dev:docs": "bun --bun vitepress dev docs",
     "build:docs": "bun --bun vitepress build docs",
     "preview:docs": "bun --bun vitepress preview docs",
-    "format": "bunx --bun pickier format .",
-    "format:fix": "bunx --bun pickier format . --write"
+    "format": "bunx --bun pickier . --format",
+    "format:fix": "bunx --bun pickier . --format --write"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.51.0"
