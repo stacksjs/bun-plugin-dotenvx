@@ -2,7 +2,7 @@
 
 ## About
 
-A Bun plugin for a seamless dotenvx experience.
+bun-plugin-dotenvx is a Bun plugin powered by dotenvx that loads `.env` files as importable modules. It supports multi-environment `.env` files, encrypted environment variables with private key decryption, variable expansion, and command substitution. The plugin is configured via `bunfig.toml` preloading or programmatically with `createDotenvxPlugin()`.
 
 ## Linting
 
