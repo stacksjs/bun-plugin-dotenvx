@@ -65,12 +65,12 @@
     "format:fix": "bunx --bun pickier . --format --write"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.51.0"
+    "@dotenvx/dotenvx": "^1.57.1"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
     "better-dx": "^0.2.7",
-    "vite-plugin-vue-devtools": "^8.0.3"
+    "vite-plugin-vue-devtools": "^8.1.0"
   },
   "git-hooks": {
     "pre-commit": {
