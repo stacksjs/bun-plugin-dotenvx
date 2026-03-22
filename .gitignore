@@ -10,3 +10,5 @@ lib-cov
 logs
 node_modules
 temp
+.zed
+.cursor
