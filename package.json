@@ -68,7 +68,6 @@
     "@dotenvx/dotenvx": "^1.51.0"
   },
   "devDependencies": {
-    "@stacksjs/docs": "^0.70.23",
     "better-dx": "^0.2.7",
     "vite-plugin-vue-devtools": "^8.0.3"
   },
