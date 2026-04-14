@@ -4,7 +4,7 @@
 
 `bun-plugin-dotenvx` is a powerful Bun plugin that seamlessly integrates with dotenvx to provide enhanced environment variable management for your Bun applications.
 
-## What is bun-plugin-dotenvx?
+## What is bun-plugin-dotenvx
 
 This plugin extends Bun's capabilities by allowing you to:
 
@@ -14,7 +14,7 @@ This plugin extends Bun's capabilities by allowing you to:
 - **Expand variables and substitute commands** in your .env values
 - **Configure the behavior** to match your specific needs
 
-## Why Use bun-plugin-dotenvx?
+## Why Use bun-plugin-dotenvx
 
 Environment variables are crucial for application configuration, but managing them securely can be challenging. This plugin solves several common problems:
 
@@ -23,7 +23,7 @@ Environment variables are crucial for application configuration, but managing th
 - **Convenience**: Import .env files directly as modules
 - **Compatibility**: Works with any Bun application
 
-## What is dotenvx?
+## What is dotenvx
 
 [dotenvx](https://dotenvx.com) is a better dotenv from the creator of the original `dotenv` package. It provides:
 

@@ -29,5 +29,3 @@ features:
     icon: 🚀
     details: "Works out of the box with Bun's plugin system for a frictionless developer experience."
 ---
-
-<Home />

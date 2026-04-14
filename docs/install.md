@@ -46,7 +46,7 @@ Add the plugin to your `bunfig.toml` file to preload it automatically:
 ```toml
 preload = [
   "./node_modules/bun-plugin-dotenvx/dist/index.js",
-  # ...other preloads
+# ...other preloads
 ]
 ```
 
@@ -75,7 +75,7 @@ Then, add this file to your `bunfig.toml`:
 ```toml
 preload = [
   "./plugin.ts",
-  # ...other preloads
+# ...other preloads
 ]
 ```
 

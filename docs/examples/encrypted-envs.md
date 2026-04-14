@@ -35,10 +35,10 @@ npx @dotenvx/dotenvx encrypt
 This will encrypt your `.env` file and create a `.env.keys` file with the encryption keys. Your encrypted `.env` file will look something like this:
 
 ```ini
-#/-------------------[DOTENV_PUBLIC_KEY]--------------------/
-#/            public-key encryption for .env files          /
-#/       [how it works](https://dotenvx.com/encryption)     /
-#/----------------------------------------------------------/
+# /-------------------[DOTENV_PUBLIC_KEY]--------------------/
+# /            public-key encryption for .env files          /
+# /       [how it works](https://dotenvx.com/encryption)     /
+# /----------------------------------------------------------/
 DOTENV_PUBLIC_KEY="034af93e93708b994c10f236c96ef88e47291066946cce2e8d98c9e02c741ced45"
 # .env
 API_KEY="encrypted:BDqDBibm4wsYqMpCjTQ6BsDHmMadg9K3dAt+Z9HPMfLEIRVz50hmLXPXRuDBXaJi..."
@@ -136,10 +136,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
       - uses: oven-sh/setup-bun@v1
       - run: bun install
       - run: bun test
+
         env:
           DOTENV_PRIVATE_KEY: ${{ secrets.DOTENV_PRIVATE_KEY }}
 ```

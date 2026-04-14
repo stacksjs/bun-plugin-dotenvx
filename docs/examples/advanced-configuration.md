@@ -85,9 +85,9 @@ project/
 ```
 # .gitignore
 .env.local
-.env.*.local
+.env._.local
 .env.keys
-.env.keys.*
+.env.keys._
 ```
 
 ## Advanced .env File Examples
