@@ -65,7 +65,7 @@
     "format:fix": "bunx --bun pickier . --format --write"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.51.0"
+    "@dotenvx/dotenvx": "^2.17.2"
   },
   "devDependencies": {
     "better-dx": "^0.2.15",
