@@ -68,8 +68,8 @@
     "@dotenvx/dotenvx": "^1.51.0"
   },
   "devDependencies": {
-    "better-dx": "^0.2.15",
-    "vite-plugin-vue-devtools": "^8.0.3"
+    "better-dx": "^0.2.20",
+    "vite-plugin-vue-devtools": "^8.1.5"
   },
   "git-hooks": {
     "pre-commit": {
